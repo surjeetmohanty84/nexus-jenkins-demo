@@ -4,7 +4,7 @@ pipeline {
         VERSION="${env.BUILD_ID}"
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "http://localhost:8081/#admin"
+        NEXUS_URL = "http://localhost:8081/repository/"
         NEXUS_REPOSITORY = "maven-nexus-repo-test"
         NEXUS_CREDENTIAL_ID = "NEXUS_ID_CREDENTIAL"
     }
